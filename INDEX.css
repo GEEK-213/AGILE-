@@ -89,8 +89,11 @@ header nav ul li a:hover {
 }
 
 button {
+    position: absolute; /* Positioning it absolutely within the hero */
+    bottom: 350px; /* Position near the bottom */
+    left: 50%; 
     background-color: #ffcc00;
-    border: none;
+    border: solid 2px #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -108,8 +111,8 @@ button {
 
 
 .card {
-    width: 200px; /* Set width to match the image */
-    height: 300px; /* Set height to match the image */
+    width: 250px; /* Set width to match the image */
+    height: 320px; /* Set height to match the image */
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
@@ -130,8 +133,7 @@ button {
 
 
 .card {
-    width: 150px; 
-    height: 200px; 
+    
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     padding: 15px;
