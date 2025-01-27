@@ -1,37 +1,16 @@
-body {
-    font-family: Arial, sans-serif;
+
+*{
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-main {
-    padding: 20px;
-}
-
-.ranking {
-    background: #ffffff;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-button {
-    background: #35424a;
-    color: #ffffff;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background: #4a5d6a;
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image:  url(https://cdn.sentinels.gg/images/cards/default.jpg);
+    background-position: center; 
+    background-size: cover;
 }
