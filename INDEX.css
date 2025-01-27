@@ -7,12 +7,17 @@
 }
 
 header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 50px;
+    background-color: rgba(26, 26, 26, 0.9);
+    color: white;
+    z-index: 1000; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
-    background-color: #1a1a1a;
-    color: white;
 }
 
 header .logo {
@@ -26,15 +31,32 @@ header nav ul {
     gap: 30px;
 }
 
+header nav ul li {
+    position: relative; 
+}
+
 header nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 16px;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+header nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2); 
 }
 
 .account a {
     color: yellow;
     font-size: 16px;
+    padding: 10px; /* Add padding for a button-like appearance */
+    border-radius: 5px; /* Rounded corners */
+    transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+.account a:hover {
+    background: rgba(255, 255, 255, 0.2); /* Hover effect */
 }
 
 .hero {
@@ -77,8 +99,8 @@ button {
 }
 
 .card {
-    width: 350px; 
-    height: 400px; 
+    width: 150px; 
+    height: 200px; 
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     padding: 15px;
